@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Overpass', sans-serif;
+    background: burlywood;
+}
+.container {
+    padding: 32px 25px 30px 32px;
+    width: 412px;
+    border-radius: 30px;
+    background: var(--black-gradient, radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%));
+    margin: 200px auto;
+    
+}
+.star {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #262E38;
+    margin-bottom: 30px;
+    transition: all;
+}
+.star:hover {
+    box-shadow: 0 0 5px orange, 0 0 25px orange;
+    /* box-shadow: 0 0 5px cyan, 0 0 25px cyan; */
+    cursor: pointer;
+    transition: all 0.7s;
+}
+h1 {
+    width: 201px;
+    color:  #FFF;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+h1:hover {
+    color: cyan;
+    /* color: orange; */
+    cursor: pointer;
+    transition: all 0.7s;
+}
+p {
+    width: 340px;
+    color: #969FAD;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 160% */
+    margin-bottom: 28px;
+}
+.number {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 30px;
+}
+.number_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 51px;
+    height: 51px;
+    background-color: #262E38;
+    border-radius: 50%;
+
+    color: #7C8798;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.2px;
+    transition: all 1s;
+}
+.number_1:hover {
+    /* box-shadow: 0 0 5px orange, 0 0 25px orange;
+    color: black; */
+    cursor: pointer;
+    color: orange;
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan;
+    color: cyan;
+}
+.number_1:active {
+    /* background-color: orange; */
+    color: black;
+    transition: 0.3s;
+    background-color: cyan;
+}
+.rating_button {
+    padding: 13px 139.81px 13px 140.83px;
+    border-radius: 22.5px;
+    background: #FFF;
+    border: none;
+
+    color: #FC7614;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    transition: all ;
+}
+.rating_button:hover {
+    /* box-shadow: 0 0 5px orange, 0 0 25px orange; */
+    cursor: pointer;
+    transition: all 0.7s;
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan;
+}
+.rating_button:active {
+    box-shadow: 0 0 0px;
+    /* background-color: orange; */
+    transition: all 0.3s;
+    color: black;
+    background-color: cyan;
+}
+::selection {
+    background-color: orange;
+    color: black;
+}
+
